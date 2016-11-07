@@ -323,8 +323,10 @@ textarea {
 @media (max-width:768px){
 #about p {
 	padding: 25px;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	text-align: justify;
+	word-spacing: 0px;
+	letter-spacing: 1px;
 }
 .section_break h1 {
 	font-size: 1.5em;

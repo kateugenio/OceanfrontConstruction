@@ -9,7 +9,6 @@ def index(request):
 
 	return render(request, 'ofc/index.html')
 
-
 def contact(request):
 	firstName = request.POST['first_name']
 	lastName = request.POST['last_name']
